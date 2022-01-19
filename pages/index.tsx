@@ -87,6 +87,19 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div> */}
+
+      {/* <form className="flex flex-col space-y-2 bg-blue-500 p-5 focus-within:bg-blue-100">
+        <input
+          type="text"
+          required
+          placeholder="user name"
+          className="border p-1 border-gray-400 rounded-xl peer"
+        />
+        <span className="hidden peer-valid:text-teal-600 peer-valid:block">
+          This input is invalid
+        </span>
+        <input type="submit" className="bg-white" />
+      </form> */}
     </div>
   );
 };
